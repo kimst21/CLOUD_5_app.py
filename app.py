@@ -8,8 +8,8 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from openai import OpenAI
 
-HA_URL = "http://192.168.10.11:8123"
-HA_TOKEN = "발행토큰"
+HA_URL = "http://192.168.10.11:8123" # HA ip
+HA_TOKEN = "발행토큰" # insert token
 HA_SENSOR_ENTITY = "sensor.vision_bridge_result"
 HA_SAFETY_ENTITY = "input_text.vision_safety_status"
 
